@@ -1302,8 +1302,8 @@ section,
 }
 
 .clients .client-logo img {
-  padding: 50px;
-  max-width: 80%;
+  padding: 20px;
+  max-width: 60%;
   transition: 0.3s;
 }
 

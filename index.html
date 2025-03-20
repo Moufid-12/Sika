@@ -40,12 +40,21 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Accueil</a></li>
-          <li><a href="#">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="formation.html">Formation U12-U18 </a></li> 
+              <!-- (Pour les enfants) -->
+              <li><a href="#">Competitions</a></li>
+              <li><a href="#">Basketball Camps</a></li>
+              <li><a href="">Leadership & Développement personnel</a></li>
+            </ul>
+          </li>
+          
           <li class="dropdown"><a href="#"><span>A propos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Sika</a></li>
+              <li><a href="#">SIKA</a></li>
               <li><a href="#">Equipe</a></li>
-              <li><a href="#">Temoignages</a></li>
+              <li><a href="#">Evènement</a></li>
               <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="#">Deep Dropdown 1</a></li>
@@ -58,9 +67,12 @@
             </ul>
           </li>
           
-          <li><a href="#">Galerie</a></li>
-          <!-- <li><a href="pricing.html">Pricing</a></li> -->
-          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <!-- <li><a href="#">Galerie</a></li> -->
+          <li><a href="#">Boutique</a></li> 
+          <!-- Maillots
+          T-shirts & Casquettes -->
+           <!-- <li><a href="#">Evènements</a></li> -->
+           <li><a href="">Rapports & Bilans</a></li>
           <li><a href="#">Contact</a></li>
           
           <li><a href="#" class="cta-btn"> Faire un Don 🤝 </a></li>
@@ -121,7 +133,7 @@
         </a>
 
         <ol class="carousel-indicators"></ol>
-
+            
       </div>
 
     </section><!-- /Hero Section -->
@@ -286,7 +298,7 @@
             <div class="pricing-item">
               <i class="bi bi-flag"></i>
               <h4><sup>Mission</sup></h4>
-              <p class="description">La mission de SIKA Omnisport est de former des jeunes athlètes compétents, responsables et respectueux, tout en cultivant des valeurs fondamentales telles que la discipline, l’esprit d’équipe et la persévérance. Nous nous engageons à offrir un environnement où chaque enfant peut s’épanouir et réussir.</p>    
+              <p class="description">Offrir aux enfants et aux jeunes la possibilité de s’initier, de développer leur potentiel à travers le basket dans un environnement sain et structuré.</p>    
             </div>
           </div>
 
@@ -294,7 +306,7 @@
             <div class="pricing-item">
               <i class="bi bi-eyeglasses"></i>
               <h4><sup>Vision</sup></h4>
-              <p class="description">Notre vision est de devenir d’ ici 2035 devenir le plus grand centre de formation de jeunes basketteurs professionnels au Bénin. Nous aspirons à préparer les talents de demain, en leur offrant les meilleures opportunités pour évoluer sur la scène internationale, tout en contribuant au développement et à la reconnaissance du basketball béninois à travers le monde.</p>    
+              <p class="description">Nous sommes en <b>2035</b> l’association sportive qui produit le plus grand nombre de jeunes basketteurs professionnels béninois au profit du Bénin et à l’international.</p>    
             </div>
           </div>
 
@@ -302,7 +314,12 @@
             <div class="pricing-item">
               <i class="bi bi-star-fill"></i>
               <h4><sup>Valeurs</sup></h4>
-              <p class="description">Les valeurs qui fondent SIKA Omnisport sont le respect, la discipline, la solidarité et l ’excellence. Ces principes sont intégrés dans tous les aspects de notre travail et guident les actions de chaque membre de l’association.</p>    
+              <p class="description "> Nos valeurs se resument: <br>
+                Discipline <br>
+                Détermination <br>
+                Solidarité <br>
+                Humanité 
+              </p>    
             </div>
           </div>
 
@@ -310,7 +327,7 @@
             <div class="pricing-item">
               <i class="bi bi-shield-check"></i>
               <h4><sup>Promesse</sup></h4>
-              <p class="description">Nous nous engageons à offrir un environnement sécurisé, motivant et structuré où chaque enfant peut évoluer et atteindre son plein potentiel. SIKA Omnisport garantit un accompagnement de qualité, avec des opportunités concrètes pour grandir et réussir.</p>    
+              <p class="description">Faire briller le potentiel des enfants et des jeunes au profit de notre communauté.</p>    
             </div>
           </div>
 
@@ -443,21 +460,18 @@
 
         <div class="row g-0 clients-wrap">
 
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          <div class="col-xl-4 col-md-4 client-logo">
+            <img src="assets/img/clients/part1.jpg" class="img-fluid" width="50%" alt="">
           </div><!-- End Client Item -->
 
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          <div class="col-xl-4 col-md-4 client-logo">
+            <img src="assets/img/clients/part2.JPG" class="img-fluid" width="50%" alt="">
           </div><!-- End Client Item -->
 
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          <div class="col-xl-4 col-md-4 client-logo">
+            <img src="assets/img/clients/part3.jpeg" class="img-fluid" width="50%" alt="">
           </div><!-- End Client Item -->
 
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
 
 
         </div>
@@ -497,6 +511,24 @@
             </div>
           </div><!-- End Team Member -->
 
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Angelo GBAGUIDI</h4>
+                <span>Vice President</span>
+              </div>
+            </div>
+          </div>
+
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
@@ -527,29 +559,14 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Samba EUDIAS</h4>
-                <span>TG</span>
+                <h4>Boris KOUADIO</h4>
+                <span>Chargé de Communication</span>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Irenee CHODATON</h4>
-                <span>1er Resp</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
+          
+          <!-- End Team Member -->
 
         </div>
 
