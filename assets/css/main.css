@@ -43,7 +43,7 @@
 }
 
 .accent-background {
-  --background-color: #b69608;
+  --background-color: #152846;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
@@ -969,6 +969,11 @@ section,
   padding: 40px;
   background-color: color-mix(in srgb, var(--default-color), transparent 96%);
 }
+
+/* .about .formationU12 .our-story {
+  padding: 40px;
+  background-color: white;
+} */
 
 @media (min-width: 991px) {
   .about .our-story {
