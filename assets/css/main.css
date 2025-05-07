@@ -1826,6 +1826,37 @@ section,
   font-size: 14px;
 }
 
+.products-section .add-btn{
+  color: white;
+  text-align: center;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins";
+  transition: 0.3s;
+  background: #b69608;
+}
+
+.products-section .add-btn:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  border-color: var(--accent-color);
+}
+
+.development-notice {
+  background-color: #b69608;
+  color: #ffffff;
+  padding: 10px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.marquee-text {
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
 .header .cta-btn {
   color: white;
   text-align: center;
