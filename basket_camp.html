@@ -112,36 +112,144 @@
             <div class="content" data-aos="fade-up" data-aos-delay="200">
                 <h1><b>Basketball Camps</b></h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sed illum quisquam error incidunt officiis quaerat laudantium, nihil neque, doloribus libero unde ipsum blanditiis magnam dolores veritatis sunt soluta dignissimos.
+                  Participez à nos Basketball Camps pour vivre une expérience unique de sport, de partage et de dépassement de soi !
                 </p>
-              <div class="d-flex justify-content-center">
-                <img src="assets/img/masonry-portfolio/8.jpeg" class="img-fluid mb-4" alt="" style="max-width: 80%; height: auto; display: block; margin: 0 auto;" data-aos="zoom-in" data-aos-delay="200">
-              </div>
+            
+                   <!-- Nav tabs -->
+             <ul class="nav nav-pills nav-justified py-md-5 py-4" id="myTab" role="tablist" data-aos="zoom-out" data-aos-delay="200">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="first-tab" data-bs-toggle="tab" data-bs-target="#first" type="button" role="tab" aria-controls="first" aria-selected="true">
+                       SIKA CAMP 2023
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="second-tab" data-bs-toggle="tab" data-bs-target="#second" type="button" role="tab" aria-controls="second" aria-selected="false">
+                        SIKA CAMP 2024
+                    </button>
+                </li>
+            </ul>
+             <style>
+                    .custom-camp-card {
+                      border-radius: 18px;
+                      overflow: hidden;
+                      transition: transform 0.2s, box-shadow 0.2s;
+                      border: none;
+                      background: #fff8f0;
+                    }
+                    .camp-img-wrapper {
+                      overflow: hidden;
+                      border-top-left-radius: 18px;
+                      border-top-right-radius: 18px;
+                      
+                    }
+                    .camp-img-wrapper img {
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      transition: transform 0.3s;
+                    }
+                    .custom-camp-card:hover .camp-img-wrapper img {
+                      transform: scale(1.07);
+                    }
+                    .custom-camp-card .card-title {
+                      color: #8b6d3b;
+                      font-weight: 600;
+                      font-size: 1.15rem;
+                    }
+                    .custom-camp-card .card-footer {
+                      background: #f6e7d0;
+                      border-top: none;
+                      font-size: 0.98rem;
+                      border-bottom-left-radius: 18px;
+                      border-bottom-right-radius: 18px;
+                    }
+                  </style>
+            <style>
+              .nav-pills .nav-link {
+                  color: var(--heading-color);
+                  }
 
-              <!-- <blockquote>
-                <p>
-                  Et vero doloremque tempore voluptatem ratione vel aut. Deleniti sunt animi aut. Aut eos aliquam doloribus minus autem quos.
-                </p>
-              </blockquote> -->
+                  /* Couleur des onglets lorsqu'ils sont actifs */
+              .nav-pills .nav-link.active {
+                  background-color: #8b6d3b;
+                  font-weight: bold;
+                  }
+            </style>
+    
+             <!-- Tab content -->
+            <div class="container mt-4 " id="myTabContent">
+              <div class="tab-content">
+                <div class="tab-pane fade show active align-items-center mb-2" id="first" role="tabpanel" aria-labelledby="first-tab">
+                  <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                      <div class="card h-100 shadow-sm custom-camp-card">
+                        <div class="camp-img-wrapper">
+                          <img src="assets/img/masonry-portfolio/1.jpeg" class="card-img-top" alt="SIKA Camp 2023 - Jour 1">
+                        </div>
+                        <div class="card-footer text-muted d-flex align-items-center justify-content-between">
+                          <span><i class="bi bi-calendar-event me-1"></i>10 Juillet 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                      <div class="card h-100 shadow-sm custom-camp-card">
+                        <div class="camp-img-wrapper">
+                          <img src="assets/img/masonry-portfolio/2.jpeg" class="card-img-top" alt="SIKA Camp 2023 - Jour 2">
+                        </div>
+                        <div class="card-footer text-muted d-flex align-items-center justify-content-between">
+                          <span><i class="bi bi-calendar-event me-1"></i>11 Juillet 2023</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Card 3 -->
+                    
+                  </div>
+                </div>
+                <div class="tab-pane fade align-items-center mb-2" id="second" role="tabpanel" aria-labelledby="second-tab">
+                 <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                      <div class="card h-100 shadow-sm custom-camp-card">
+                        <div class="camp-img-wrapper">
+                          <img src="assets/img/masonry-portfolio/7.jpeg" class="card-img-top" alt="SIKA Camp 2023 - Jour 1">
+                        </div>
+                        <div class="card-footer text-muted d-flex align-items-center justify-content-between">
+                          <span><i class="bi bi-calendar-event me-1"></i>10 Juillet 2024</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                      <div class="card h-100 shadow-sm custom-camp-card">
+                        <div class="camp-img-wrapper">
+                          <img src="assets/img/masonry-portfolio/9.jpeg" class="card-img-top" alt="SIKA Camp 2023 - Jour 2">
+                        </div>
+                        <div class="card-footer text-muted d-flex align-items-center justify-content-between">
+                          <span><i class="bi bi-calendar-event me-1"></i>11 Juillet 2024</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Card 3 -->
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                <blockquote>
+                  <p>
+                    "Offrez à vos enfants l'opportunité de grandir, de s'amuser et de se dépasser à travers le basketball. Inscrivez-les à notre camp pour des souvenirs et des valeurs qui dureront toute une vie !"
+                  </p>
+                </blockquote>
 
             
             
 
             </div><!-- End post content -->
 
-            <div class="meta-bottom">
-              <i class="bi bi-folder"></i>
-              <ul class="cats">
-                <li><a href="#">Business</a></li>
-              </ul>
-
-              <i class="bi bi-tags"></i>
-              <ul class="tags">
-                <li><a href="#">Creative</a></li>
-                <li><a href="#">Tips</a></li>
-                <li><a href="#">Marketing</a></li>
-              </ul>
-            </div><!-- End meta bottom -->
+          
 
           </article>
 
